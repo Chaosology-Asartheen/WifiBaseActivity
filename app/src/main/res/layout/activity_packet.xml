@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+    tools:context=".packet">
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="229dp"
+        android:text="start listener" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textStatus"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="87dp"
+        android:text="noob" />
+
+    <TextView
+        android:id="@+id/textStatus"
+        android:layout_width="match_parent"
+        android:layout_height="434dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        android:text="status goes here"
+        android:textSize="24sp" />
+</RelativeLayout>
